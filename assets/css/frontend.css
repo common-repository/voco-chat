@@ -1,0 +1,47 @@
+#vocoChat{
+    max-width: 100%;
+    position: fixed;
+    z-index: 1;
+    bottom: 100px;
+    right: 10px;
+}
+
+#vocoChatFrame{
+    width: 346px;
+    height: 70vh;
+    max-height:560px;
+    overflow: hidden;
+    
+    background-color: #f1f1f1;
+    border-radius: 0 0 5px 5px;
+    padding: 2px 5px 5px 2px;
+    margin:  0;
+}
+
+#vocoChatIntro{
+    width: 333px;
+   
+    background-color: rgb(239, 242, 249);
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin: 0;
+}
+
+#vocoChatIntroText{
+    float: right;
+    width: 81%;
+    margin-top: auto;
+}
+
+#vocoChatButton{
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    bottom: 20px;
+    right: 10px;
+    z-index: 999;
+    width: 70px;
+    height: 70px;
+    float: right;
+}
+
